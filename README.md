@@ -15,6 +15,7 @@ $ xxdetect --generate dump.mem
 #=> Written bytes to 'dump.mem'
 
 $ xxd dump.mem | xxdetect "\x0a"
+$ xxd -p dump.mem | xxdetect "\x00"
 ```
 
 ### Options
